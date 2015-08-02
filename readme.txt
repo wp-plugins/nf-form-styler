@@ -4,7 +4,7 @@ Donate link: http://webholics.in
 Requires at least: 3.5
 Tags: ninja forms, forms, field,layout,styler,builder,form-builder
 Tested up to: 4.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 
 Style your Ninja Forms from backend
@@ -30,7 +30,7 @@ Features:
 * Style Form Container.
 
 
-
+Check out the <a href="http://www.webholics.in/form-styler-for-ninja-forms/?utm_source=wporgplugin&utm_medium=wporg&utm_campaign=nfstyler" >demo form </a> styled using this plugin
 
 == Installation ==
 * Upload the plugin to wp-content->plugins directory,
@@ -41,5 +41,10 @@ Features:
 1. Form Styler Admin Settings
 
 == Changelog ==
+= 1.0 (2nd Aug 2015)=
+-Bugs:
+* Fixed warning message on setting page.
+
+
 = 1.0 =
 Intial Release

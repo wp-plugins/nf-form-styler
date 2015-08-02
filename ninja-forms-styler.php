@@ -5,7 +5,7 @@
 	Author: Aman Saini
 	Author URI: http://webholics.in
 	Plugin URI: http://webholics.in
-	Version: 1.0
+	Version: 1.0.1
 	Requires at least: 3.5
 	Tested up to: 4.2
 */
@@ -165,12 +165,14 @@ function ninja_forms_save_layout_styler() {
 }
 
 function get_styler_field_layout_settings( $form_id ) {
+	$field_layout = $field_layout_settings = array();
 	$style_setting = get_option( 'nf_styler_'.$form_id );
-	$field_layout = json_decode( stripslashes( $style_setting['field_layout'] ) );
-	$field_layout_settings =array();
-	foreach ( $field_layout as $layout_array ) {
-		foreach ( $layout_array as $key => $obj ) {
-			$field_layout_settings[$key] = $obj;
+	if ( !empty( $style_setting ) ) {
+		$field_layout = json_decode( stripslashes( $style_setting['field_layout'] ) );
+		foreach ( $field_layout as $layout_array ) {
+			foreach ( $layout_array as $key => $obj ) {
+				$field_layout_settings[$key] = $obj;
+			}
 		}
 	}
 
