@@ -1,4 +1,4 @@
-=== NF Form Styler ===
+=== Form Styler for Ninja Forms ===
 Contributors: aman086
 Donate link: http://webholics.in
 Requires at least: 3.5
@@ -7,7 +7,7 @@ Tested up to: 4.2
 Stable tag: 1.0
 License: GPLv2 or later
 
-Form Styler for NF
+Style your Ninja Forms from backend
 
 == Description ==
 Form Styler for Ninja Forms lets you build and style your Ninja Forms using drag and drop builder.
