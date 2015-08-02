@@ -1,0 +1,13 @@
+.nf-styler-row{
+	width: 100%;
+}
+.nf-styler-col{
+    float: left;
+    width: 45%;
+}
+.nf-styler-col-1{
+	   margin-right: 25px;
+}
+.nf-styler-colsize-2{
+	width: 100%
+}
